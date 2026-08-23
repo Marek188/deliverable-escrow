@@ -1,0 +1,19 @@
+# GenLayer Testing Suite (gltest) network configuration.
+# See: https://pypi.org/project/genlayer-test/
+#
+# Override at the command line, e.g.:
+#   gltest --network testnet_asimov test/ -v -s
+
+default_network: localnet
+
+networks:
+  localnet:
+    chain_type: localnet
+
+  studionet:
+    chain_type: studionet
+
+  testnet_asimov:
+    chain_type: testnet_asimov
+    # Populate with a funded test account before running against testnet.
+    # account_private_key: "${TESTNET_PRIVATE_KEY}"

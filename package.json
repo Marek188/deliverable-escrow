@@ -1,0 +1,12 @@
+{
+  "name": "deliverable-escrow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A reusable escrow Intelligent Contract for GenLayer's Agentic Commerce use case: fund an engagement, submit a deliverable, let validators judge it against a brief.",
+  "scripts": {
+    "deploy": "genlayer deploy"
+  },
+  "dependencies": {
+    "genlayer-js": "^1.0.0"
+  }
+}
